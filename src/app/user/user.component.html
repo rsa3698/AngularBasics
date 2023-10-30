@@ -1,0 +1,5 @@
+<h2>Inside User Component</h2>
+<!-- string interpolation -->
+<p [ngStyle]="{'background-color' : getColor()}"
+[ngClass]="{online : userStatus === 'Online' }"
+> User {{userId}} active status is {{getUserStatus()}}</p>
